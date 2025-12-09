@@ -15,10 +15,13 @@ def is_date_before(current_date: date, comparison_date: date) -> bool:
 
 def is_date_in_range(current_date: date, start_date: date, end_date: date) -> bool:
     """Check if the given date is within the specified range."""
-    if start_date <= end_date:
-        return start_date <= current_date <= end_date
-    else:
-        return current_date >= start_date or current_date <= end_date
+    if start_date.year > end_date.year:
+        return False
+
+    if start_date.year < end_date.year:
+        return start_date.year <= current_date.year < end_date.year
+
+    return start_date <= current_date <= end_date
 
 
 def is_date_in_tuple(month_day: str, comparison_tuple: tuple[str, ...]) -> bool:
