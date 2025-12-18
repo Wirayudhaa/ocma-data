@@ -5,41 +5,116 @@
 ![Coverage](https://img.shields.io/badge/coverage-68%25-yellow)
 ![License](https://img.shields.io/github/license/ephmo/ocma-data)
 
+---
+
 ## Overview
 
-**OCMA-Data** is a structured **Orthodox Calendar** dataset that provides JSON files for each liturgical day of the year, supporting both the **Old Calendar (Julian)** and the **New Calendar (Revised Julian)** from 1924 to 2099. This dataset serves as the foundation for the [OCMA](https://github.com/ephmo/ocma) application, offering comprehensive liturgical details.
+**OCMA-Data** is a comprehensive and structured **Orthodox Christian liturgical calendar dataset**. It provides machine-readable **JSON files for each liturgical year**, supporting both the **Old Calendar (Julian)** and the **New Calendar (Revised Julian)** for the years **1924–2099**.
 
-## Features
+This repository serves as the canonical data source for the **[OCMA](https://github.com/ephmo/ocma)** application, while remaining **framework-agnostic** and reusable for a wide range of applications and research projects.
 
-- **Feasts**: Movable and Fixed Feasts.
-- **Saints**: Common and Additional Saints.
-- **Fasting**: Information on Fasting Seasons and Levels.
-- **Lectionary**: Tone, Matins Gospel, Epistle and Gospel for each Sunday.
-- **Paschalion**: Pascha date for each year.
-- **Moon Phases**: Primary lunar phases relevant to the Calendar.
+---
 
-## Multilingual Support & Translation-Friendly Structure
+## Key Features
 
-**OCMA-Data** is available in **English, Greek, Romanian and Russian**, with each language stored in **separate JSON files**. This separation ensures a clear distinction between **liturgical logic** and **language**, allowing easy expansion to additional languages in the future.
+### 📅 Calendar Coverage
 
-## Usage
+- Fixed and movable feast cycles
+- Complete Paschal cycle for each supported year
+- Old Calendar (Julian) and New Calendar (Revised Julian) alignment
 
-The JSON files provide structured and reusable data, making **OCMA-Data** a valuable resource for:
+### 🕯️ Liturgical Content
 
-- **Developers** building applications with Orthodox liturgical content.
-- **Researchers** studying Orthodox calendars and feast calculations.
-- **Faithful** who want easy access to detailed liturgical information.
+- **Feasts**: Great, Major, Minor, and commemorative feasts
+- **Saints**: Common saints and additional local commemorations
+- **Fasting Rules**: Fasting seasons and daily fasting levels
+- **Lectionary**:
+  - Tone of the week
+  - Sunday Matins Gospel
+  - Epistle and Gospel readings
 
-**OCMA-Data** provides a structured and reusable resource for developers, researchers, and Orthodox faithful, facilitating access to comprehensive liturgical information.
+### 🌕 Astronomical Data
+
+- Pascha date per year
+- Primary lunar phases relevant to the liturgical calendar
+
+---
+
+## Multilingual Support
+
+OCMA-Data is designed to be **fully translation-friendly**.
+
+- Supported languages:
+  - English
+  - Greek
+  - Romanian
+  - Russian
+
+Each language is stored in **separate JSON files**, ensuring a strict separation between:
+
+- **Liturgical logic and calendar calculations**
+- **Human-readable language content**
+
+This approach allows new languages to be added easily without modifying the core calendar data.
+
+---
+
+## Data Structure
+
+OCMA-Data follows a **year-based, language-separated JSON structure**:
+
+- **One JSON file per year**, containing all liturgical days and data for that year
+- **One JSON file per language**, holding translated textual content
+- **One unified Paschalion JSON file**, covering Pascha dates and related calculations for **all supported years (1924–2099)**
+
+This structure provides:
+
+- Predictable file organization
+- Efficient data loading for applications
+- Clear separation of concerns between calendar logic and translations
+
+The dataset is optimized for **clarity, maintainability, and long-term extensibility**.
+
+---
+
+## Use Cases
+
+OCMA-Data is suitable for:
+
+- **Developers** building Orthodox calendar, prayer, or lectionary applications
+- **Researchers** analyzing Orthodox liturgical cycles and calendar systems
+- **Church organizations** requiring structured liturgical data
+- **Faithful** seeking programmatic access to daily liturgical information
+
+---
 
 ## Contributing
 
-Contributions are welcome! If you wish to add additional languages or improve the dataset, feel free to submit a pull request.
+Contributions are welcome and encouraged.
 
-## License
+You can help by:
 
-This application is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Adding new language translations
+- Improving existing translations
+- Correcting or enriching liturgical data
+- Enhancing documentation
+
+Please submit a pull request or open an issue to discuss proposed changes.
+
+---
 
 ## Reporting Issues
 
-If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/ephmo/ocma-data/issues) on our issue tracker. We appreciate your feedback!
+If you encounter bugs, data inconsistencies, or have suggestions for improvement, please open an issue on the GitHub tracker:
+
+👉 https://github.com/ephmo/ocma-data/issues
+
+Your feedback helps improve the quality and reliability of the dataset.
+
+---
+
+## License
+
+OCMA-Data is released under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for full details.
