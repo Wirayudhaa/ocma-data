@@ -2,6 +2,7 @@
 
 ![Stage](https://img.shields.io/badge/stage-alpha-orange)
 ![Build](https://img.shields.io/github/actions/workflow/status/ephmo/ocma-data/deploy.yml)
+![Coverage](https://img.shields.io/badge/coverage-68%25-yellow)
 ![License](https://img.shields.io/github/license/ephmo/ocma-data)
 
 ## Overview
